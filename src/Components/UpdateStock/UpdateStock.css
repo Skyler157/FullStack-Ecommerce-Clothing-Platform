@@ -1,0 +1,63 @@
+.update-stock {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .update-stock-table {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .update-stock-products {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .update-stock-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #eee;
+  }
+  
+  .update-stock-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .stock-input {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .update-stock-btn {
+    padding: 5px 10px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-stock-btn:hover {
+    background-color: #45a049;
+  }
+  
+  hr {
+    margin: 10px 0;
+  }
+  
